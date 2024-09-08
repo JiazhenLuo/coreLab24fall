@@ -89,7 +89,7 @@ li a{
 
 .card-container{
     background-color: rgb(110, 110, 110);
-    /* height: 100vh; */
+    height: 100vh;
     margin-top: 15px;
     overflow: hidden;
 }
@@ -107,8 +107,8 @@ li a{
     box-shadow: 7px 5px rgb(43, 43, 43);
     max-width: 33.333%;
     padding: 1rem;
-    margin-top: 2rem;
-    margin-left: 2rem;
+    margin-top: 2%;
+    margin-left: 2%;
     margin-bottom: 2rem;
     flex-basis: auto;
     flex-grow: 0;

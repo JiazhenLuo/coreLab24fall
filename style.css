@@ -1,6 +1,11 @@
+@font-face {
+    font-family: typewriter;
+    src: url(assets/Takibi-Regular.otf);
+}
 body{
     padding: 300px;
     display:flex;
+    font-family: typewriter;
 }
 
 ul {

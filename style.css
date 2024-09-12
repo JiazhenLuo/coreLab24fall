@@ -1,19 +1,49 @@
-@font-face {
-    font-family: typewriter;
-    src: url(assets/Takibi-Regular.otf);
-}
 body{
-    padding: 300px;
-    display:flex;
-    font-family: typewriter;
+    padding: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-container > div{
+    padding: 50px;
+}
+
+#profile{
+    width: 7vw;
+}
+
+@media (max-width: 1080px) {
+    #profile {
+        width: 90px; 
+    }
 }
 
 ul {
     list-style-type: none;
+    padding: 0%;
+}
+
+ul li{
+    margin-bottom: 5px;
 }
 
 ul li a {
     text-decoration: none;
     color: gray;
-    margin-left: 0px;
+    margin-left: 0px;    
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    /* margin-top: 0px; */
+    font-size: 15px;
+    color: rgb(174, 174, 174);
+    font-weight: 150;
 }

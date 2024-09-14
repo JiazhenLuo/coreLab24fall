@@ -13,12 +13,12 @@ body{
 }
 
 #profile{
-    width: 7vw;
+    width: 9vw;
 }
 
 @media (max-width: 1080px) {
     #profile {
-        width: 90px; 
+        width: 130px; 
     }
 }
 
@@ -39,6 +39,7 @@ ul li a {
 
 h2{
     font-size: 20px;
+    white-space: pre;
 }
 
 h3{

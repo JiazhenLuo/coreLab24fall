@@ -16,12 +16,6 @@ body{
     width: 9vw;
 }
 
-@media (max-width: 1080px) {
-    #profile {
-        width: 130px; 
-    }
-}
-
 ul {
     list-style-type: none;
     padding: 0%;
@@ -43,8 +37,54 @@ h2{
 }
 
 h3{
-    /* margin-top: 0px; */
     font-size: 15px;
     color: rgb(174, 174, 174);
     font-weight: 150;
+}
+
+@media (max-width: 700px) {
+    body{
+        padding: 10vw;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    #profile {
+        width: 130px; 
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .flex-container > div{
+        padding: 10px;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0%;
+    }
+    
+    ul li{
+        margin-bottom: 5px;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: gray;
+        margin-left: 0px;    
+    }
+    
+    h2{
+        font-size: 15px;
+        white-space: pre;
+    }
+    
+    h3{
+        font-size: 12px;
+        color: rgb(174, 174, 174);
+        font-weight: 150;
+    }
 }

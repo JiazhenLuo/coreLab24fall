@@ -17,7 +17,7 @@ nav{
 }
 
 .flex-container > div{
-    padding: 70px;
+    padding: 4vw;
 }
 
 #profile{
@@ -50,8 +50,66 @@ h3{
     color: rgb(174, 174, 174);
     font-weight: 150;
 }
+/* @media(max-width: 1024px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+    }
 
-@media (max-width: 390px) {
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    #profile {
+        width: 130px; 
+    }
+
+    .flex-container{
+        padding: 15vh;
+        width: 85vw;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .flex-container > div{
+        padding: 10px;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0%;
+    }
+    
+    ul li{
+        margin-bottom: 5px;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: gray;
+        margin-left: 0px;    
+    }
+    
+    h2{
+        font-size: 17px;
+        white-space: pre;
+    }
+    
+    h3{
+        font-size: 12px;
+        color: rgb(174, 174, 174);
+        font-weight: 150;
+    }
+} */
+
+@media (max-width: 768px){
+
     body{
         margin: 0;
         padding: 0;

@@ -166,7 +166,7 @@ h3{
     }
 }
 
-@media (orientation: landscape) and (max-width: 1024px){
+@media (orientation: landscape) and (max-height: 1024px){
 
     body{
         margin: 0;

@@ -51,7 +51,7 @@ h3{
     font-weight: 150;
 }
 
-@media (max-width: 1024px){
+@media (orientation: portrait) and (max-width: 1024px){
 
     body{
         margin: 0;
